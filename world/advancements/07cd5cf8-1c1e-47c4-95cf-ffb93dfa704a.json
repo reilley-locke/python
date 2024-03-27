@@ -1,0 +1,53 @@
+{
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "pumpkin_patch": "2024-03-25 19:17:33 -0600"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2024-03-25 19:18:00 -0600"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2024-03-25 19:18:00 -0600"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2024-03-25 19:18:00 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "coniferous_forest": "2024-03-25 19:17:40 -0600",
+      "pumpkin_patch": "2024-03-25 19:17:33 -0600"
+    },
+    "done": false
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-03-25 19:19:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-03-25 19:19:43 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2024-03-25 19:16:57 -0600",
+      "minecraft:jungle": "2024-03-25 19:12:44 -0600"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
