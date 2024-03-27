@@ -1,1 +1,1 @@
-worker:ravenSMP-start-bot/worker/basicbot.py
+web: python basicbot.py
