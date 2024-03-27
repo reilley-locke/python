@@ -5,6 +5,9 @@ from discord.ext import commands
 import random
 import subprocess
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 description = '''An example bot to showcase the discord.ext.commands extension
 module.
@@ -16,6 +19,8 @@ intents.members = True
 intents.message_content = True
 
 bot = commands.Bot(command_prefix='?', description=description, intents=intents)
+
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 
 @bot.event
@@ -84,4 +89,4 @@ async def start(ctx):
     #os.startfile(r'C:\Users\Rhloc\Desktop\CobblemonServer\start.bat')
     os.startfile(r'C:\Users\Rhloc\Desktop\RavenSMP\run.bat')
 
-bot.run('MTIyMjAzMjA5OTI0NzM5MDc3MQ.GNAzIp.zA9MjVEqT9DECMCa1YF58gtRSszkRyI6jAbtl0')
+bot.run(TOKEN)
